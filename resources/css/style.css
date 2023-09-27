@@ -1,0 +1,21 @@
+:root {
+    --bg-footer: hsl(168, 34%, 41%);
+    --accent-transform: hsl(51, 100%, 49%);
+    --accent-standout: hsl(7, 99%, 70%);
+    --c-main: hsl(212, 27%, 19%);
+    --c-secondary: hsl(232, 10%, 55%);
+    --c-adnotations: hsl(213, 9%, 39%);
+}
+
+html {
+    background-color: hsl(210, 4%, 67%)
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
