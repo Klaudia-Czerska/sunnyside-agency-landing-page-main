@@ -362,6 +362,10 @@
         --bg-heading: url(../../images/desktop/image-header.jpg)
     }
     
+    .header__logo {
+        cursor: pointer;
+    }
+
     .header__nav {
         width: min(60%, 500px);
     }
@@ -370,6 +374,10 @@
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+    }
+
+    .header__nav-item {
+        cursor: pointer;
     }
 
     .header__nav-item:last-child {
@@ -456,9 +464,11 @@
     }
 
     .pictures {
+        aspect-ratio: auto;
         display: flex;
-        height: 60svh;
-        width: 25%;
+        flex-shrink: contain;
+        /* height: 60svh; */
+        width: 100%;
     }
 
     .pictures__bottles {
