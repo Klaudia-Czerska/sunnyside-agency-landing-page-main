@@ -13,7 +13,7 @@ mobileMenuButton.addEventListener('click', () => {
 
 window.addEventListener('resize', () => {
     let windowWidth = window.innerWidth;
-    if (windowWidth > 600) {
+    if (windowWidth > 700) {
         if (!mobileMenuButton.classList.contains('hidden')) {
             mobileMenuButton.classList.add('hidden');
         }
